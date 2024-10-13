@@ -20,11 +20,11 @@
         return operand1 * operand2;
     }
 
-    public String div() { // Promenjen tip vraćanja u String
+    public String div() {
         if (operand2 != 0) {
-            return String.valueOf(operand1 / operand2); // Vraćamo rezultat kao String
+            return String.valueOf(operand1 / operand2);
         } else {
-            return "Deljenje sa nulom nije dozvoljeno!"; // Poruka o grešci
+            return "Deljenje sa nulom nije dozvoljeno!";
         }
     }
 }
